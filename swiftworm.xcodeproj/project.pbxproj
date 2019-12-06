@@ -13,7 +13,26 @@
 		A87B74C1239ADA7B00C98880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87B74BF239ADA7B00C98880 /* Main.storyboard */; };
 		A87B74C3239ADA7D00C98880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87B74C2239ADA7D00C98880 /* Assets.xcassets */; };
 		A87B74C6239ADA7D00C98880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87B74C4239ADA7D00C98880 /* LaunchScreen.storyboard */; };
+		A87B74DB239ADB4D00C98880 /* WormBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = A87B74DA239ADB4D00C98880 /* WormBridge.mm */; };
+		A87B74DF239ADD8600C98880 /* SteeringNeuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B74DE239ADD8600C98880 /* SteeringNeuron.swift */; };
+		A87B74E1239ADDC600C98880 /* SteeringSynapse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B74E0239ADDC600C98880 /* SteeringSynapse.swift */; };
+		A87B74E5239ADE1900C98880 /* WormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B74E4239ADE1900C98880 /* WormController.swift */; };
+		A87B74E7239ADE8800C98880 /* FoodSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B74E6239ADE8800C98880 /* FoodSource.swift */; };
+		A87B74E9239ADF1B00C98880 /* WormBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B74E8239ADF1B00C98880 /* WormBody.swift */; };
+		A87B74EC239AE02B00C98880 /* SteeringNeuronCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B74EB239AE02B00C98880 /* SteeringNeuronCollection.swift */; };
+		A87B74EE239AE08600C98880 /* SteeringSynapseCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B74ED239AE08600C98880 /* SteeringSynapseCollection.swift */; };
+		A87B74F7239AE52700C98880 /* libsundial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A87B74F4239AE51600C98880 /* libsundial.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A87B74F3239AE51600C98880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87B74CD239ADA8B00C98880 /* sundial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8DA0FE82398C0D1008F9EDF;
+			remoteInfo = sundial;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A87B74B6239ADA7B00C98880 /* swiftworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +43,17 @@
 		A87B74C2239ADA7D00C98880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A87B74C5239ADA7D00C98880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A87B74C7239ADA7D00C98880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87B74CD239ADA8B00C98880 /* sundial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sundial.xcodeproj; path = sundial/sundial.xcodeproj; sourceTree = "<group>"; };
+		A87B74D8239ADB4D00C98880 /* swiftworm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftworm-Bridging-Header.h"; sourceTree = "<group>"; };
+		A87B74D9239ADB4D00C98880 /* WormBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WormBridge.h; sourceTree = "<group>"; };
+		A87B74DA239ADB4D00C98880 /* WormBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WormBridge.mm; sourceTree = "<group>"; };
+		A87B74DE239ADD8600C98880 /* SteeringNeuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteeringNeuron.swift; sourceTree = "<group>"; };
+		A87B74E0239ADDC600C98880 /* SteeringSynapse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteeringSynapse.swift; sourceTree = "<group>"; };
+		A87B74E4239ADE1900C98880 /* WormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormController.swift; sourceTree = "<group>"; };
+		A87B74E6239ADE8800C98880 /* FoodSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSource.swift; sourceTree = "<group>"; };
+		A87B74E8239ADF1B00C98880 /* WormBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormBody.swift; sourceTree = "<group>"; };
+		A87B74EB239AE02B00C98880 /* SteeringNeuronCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteeringNeuronCollection.swift; sourceTree = "<group>"; };
+		A87B74ED239AE08600C98880 /* SteeringSynapseCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteeringSynapseCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87B74F7239AE52700C98880 /* libsundial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +71,10 @@
 		A87B74AD239ADA7B00C98880 = {
 			isa = PBXGroup;
 			children = (
+				A87B74CD239ADA8B00C98880 /* sundial.xcodeproj */,
 				A87B74B8239ADA7B00C98880 /* swiftworm */,
 				A87B74B7239ADA7B00C98880 /* Products */,
+				A87B74D4239ADAA000C98880 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,48 @@
 		A87B74B8239ADA7B00C98880 /* swiftworm */ = {
 			isa = PBXGroup;
 			children = (
+				A87B74DD239ADD7700C98880 /* Models */,
 				A87B74B9239ADA7B00C98880 /* AppDelegate.swift */,
 				A87B74BB239ADA7B00C98880 /* SceneDelegate.swift */,
 				A87B74BD239ADA7B00C98880 /* ViewController.swift */,
+				A87B74E4239ADE1900C98880 /* WormController.swift */,
 				A87B74BF239ADA7B00C98880 /* Main.storyboard */,
 				A87B74C2239ADA7D00C98880 /* Assets.xcassets */,
 				A87B74C4239ADA7D00C98880 /* LaunchScreen.storyboard */,
 				A87B74C7239ADA7D00C98880 /* Info.plist */,
+				A87B74D9239ADB4D00C98880 /* WormBridge.h */,
+				A87B74DA239ADB4D00C98880 /* WormBridge.mm */,
+				A87B74D8239ADB4D00C98880 /* swiftworm-Bridging-Header.h */,
 			);
 			path = swiftworm;
+			sourceTree = "<group>";
+		};
+		A87B74D4239ADAA000C98880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A87B74DD239ADD7700C98880 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A87B74DE239ADD8600C98880 /* SteeringNeuron.swift */,
+				A87B74EB239AE02B00C98880 /* SteeringNeuronCollection.swift */,
+				A87B74E0239ADDC600C98880 /* SteeringSynapse.swift */,
+				A87B74ED239AE08600C98880 /* SteeringSynapseCollection.swift */,
+				A87B74E6239ADE8800C98880 /* FoodSource.swift */,
+				A87B74E8239ADF1B00C98880 /* WormBody.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A87B74F0239AE51600C98880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87B74F4239AE51600C98880 /* libsundial.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +165,7 @@
 				TargetAttributes = {
 					A87B74B5239ADA7B00C98880 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -113,12 +180,28 @@
 			mainGroup = A87B74AD239ADA7B00C98880;
 			productRefGroup = A87B74B7239ADA7B00C98880 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A87B74F0239AE51600C98880 /* Products */;
+					ProjectRef = A87B74CD239ADA8B00C98880 /* sundial.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A87B74B5239ADA7B00C98880 /* swiftworm */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A87B74F4239AE51600C98880 /* libsundial.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsundial.a;
+			remoteRef = A87B74F3239AE51600C98880 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A87B74B4239ADA7B00C98880 /* Resources */ = {
@@ -138,9 +221,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87B74DF239ADD8600C98880 /* SteeringNeuron.swift in Sources */,
+				A87B74EC239AE02B00C98880 /* SteeringNeuronCollection.swift in Sources */,
+				A87B74EE239AE08600C98880 /* SteeringSynapseCollection.swift in Sources */,
 				A87B74BE239ADA7B00C98880 /* ViewController.swift in Sources */,
+				A87B74DB239ADB4D00C98880 /* WormBridge.mm in Sources */,
+				A87B74E9239ADF1B00C98880 /* WormBody.swift in Sources */,
 				A87B74BA239ADA7B00C98880 /* AppDelegate.swift in Sources */,
+				A87B74E7239ADE8800C98880 /* FoodSource.swift in Sources */,
+				A87B74E1239ADDC600C98880 /* SteeringSynapse.swift in Sources */,
 				A87B74BC239ADA7B00C98880 /* SceneDelegate.swift in Sources */,
+				A87B74E5239ADE1900C98880 /* WormController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +375,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L62FMB9GWN;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = swiftworm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,6 +386,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.cajal.swiftworm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftworm/swiftworm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,8 +397,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L62FMB9GWN;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = swiftworm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +408,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.cajal.swiftworm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftworm/swiftworm-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
